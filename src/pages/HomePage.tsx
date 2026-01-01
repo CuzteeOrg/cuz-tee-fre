@@ -13,9 +13,9 @@ export default function HomePage() {
     <div>
       <h1>Dress Store</h1>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
-        {products.map(prod => (
-          <ProductCard key={prod.id} product={prod} />
-        ))}
+        {/* {products.map(prod => ( */}
+          <ProductCard  />
+        {/* ))} */}
       </div>
     </div>
   );
