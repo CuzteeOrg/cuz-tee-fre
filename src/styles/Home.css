@@ -1,3 +1,6 @@
 .h1-color{
     color: blueviolet;
 }
+.h1{
+    block-size: auto;
+}
