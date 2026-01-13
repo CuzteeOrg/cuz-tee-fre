@@ -5,7 +5,7 @@ export default function Customizer({ product }: any) {
   const [quantity, setQuantity] = useState<number>(1);
 
   function handleOptionChange(optType: string, optValue: any) {
-    setSelectedOptions(prev => ({ ...prev, [optType]: optValue }));
+    //setSelectedOptions(prev => ({ ...prev, [optType]: optValue }));
   }
 
   function handleAddToCart() {
